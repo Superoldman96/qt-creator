@@ -630,8 +630,8 @@
                 "$(delta:+)": [
                     "*/glsl.g",
                     "*/qmljs.g",
-                    "*/src/libs/acp/*",
-                    "*/src/libs/mcp/schemas/*"
+                    "src/libs/acp/*",
+                    "src/libs/mcp/schemas/*"
                 ]
             }
         },
@@ -645,8 +645,8 @@
             "_active": true,
             "excludes": {
                 "$(delta:+)": [
-                    "*/src/libs/acp/*",
-                    "*/src/libs/mcp/schemas/*"
+                    "src/libs/acp/*",
+                    "src/libs/mcp/schemas/*"
                 ],
                 "$(delta:-)": []
             }
